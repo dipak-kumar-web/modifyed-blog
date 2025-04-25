@@ -8,8 +8,8 @@ import { SiteHeader } from "@/components/site-header"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "WordPress Next.js",
-  description: "A Next.js application that fetches and displays posts and pages from a WordPress site",
+  title: "Modifyed Blog",
+  description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi et delectus aspernatur.",
     generator: 'v0.dev'
 }
 
