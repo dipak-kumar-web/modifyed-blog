@@ -10,8 +10,8 @@ interface PostCardProps {
 }
 
 export function PostCard({ post }: PostCardProps) {
-  const formattedDate = new Date(post.date).toLocaleDateString()
-  const featuredImage = post._embedded?.["wp:featuredmedia"]?.[0]?.source_url
+  const formattedDate = new Date(post?.date).toLocaleDateString()
+  const featuredImage = post?._embedded?.["wp:featuredmedia"]?.[0]?.source_url
 
   return (
     <Card className="h-full flex flex-col">
