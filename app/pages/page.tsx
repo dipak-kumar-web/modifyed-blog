@@ -39,7 +39,7 @@ export default function PagesPage() {
 
   return (
     <div className="container py-8">
-      <h1 className="text-3xl font-bold mb-8">WordPress Pages</h1>
+      <h1 className="text-3xl font-bold mb-8">Modifyed Pages</h1>
 
       {isLoading ? (
         <div className="flex justify-center items-center min-h-[300px]">
